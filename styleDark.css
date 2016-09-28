@@ -20,7 +20,7 @@ a {
 	transition: color .5s;
 }
 a:hover {
-	color: #555555;
+	color: #333333;
 	text-decoration: underline;
 }
 .container {
@@ -42,6 +42,14 @@ a:hover {
 }
 .favSeries {
 	width: 425px;height: 239px;
+}
+.moreVids {
+	display: flex;
+	justify-content: space-around;
+}
+.underArt {
+	display: flex;
+	justify-content: space-between;
 }
 /*Applies to Art*/
 .logo {
