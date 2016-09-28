@@ -69,11 +69,11 @@ a:hover {
 	display: flex;
 	justify-content: space-around;
 }
-.minecraft, .mec, .holmes, .spore, .aCity, .dS {
+.minecraft, .mec, .holmes, .spore, .aCity, .dS, .rl, .civ, .gm {
 	width: 250px;height: 352px;
 	transition: width 1s, height 1s;
 	transition-delay: .2s;
 }
-.minecraft:hover, .mec:hover, .holmes:hover, .spore:hover, .aCity:hover, .dS:hover {
+.minecraft:hover, .mec:hover, .holmes:hover, .spore:hover, .aCity:hover, .dS:hover, .rl:hover, .civ:hover, .gm:hover{
 	width: 300px;height: 422px;
 }
