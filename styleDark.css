@@ -1,7 +1,27 @@
 html {
 	background-color: black;
+	background-image: url('images/backgroundDark.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 	color: white;
 	font-family: helvetica, arial, serif;
+	text-align: center;
+}
+p{
+	font-size: 1.5em;
+}
+table {
+	text-align: left;
+}
+a {
+	color: #aaaaaa;
+	text-decoration: none;
+	transition: color .5s;
+}
+a:hover {
+	color: #555555;
+	text-decoration: underline;
 }
 .container {
 	width: 850px;
@@ -19,4 +39,23 @@ html {
 	width: 50px; height: 35px;
 	justify-content: flex-start;
 	margin-left: -850px;
+}
+.favSeries {
+	width: 425px;height: 239px;
+}
+/*Applies to Art*/
+.logo {
+	width: 122px;height: 150px;
+}
+.logo2 {
+	width: 103px;height: 150px;
+}
+.logo1 {
+	width: 155px;height: 141px;
+}
+.fez {
+	width: 92px;height: 150px;
+}
+.comic {
+	width: 144px;height: 150px;
 }
