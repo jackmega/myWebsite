@@ -15,7 +15,7 @@ table {
 	text-align: left;
 }
 a {
-	color: #555555;
+	color: #333333;
 	text-decoration: none;
 	transition: color .5s;
 }
@@ -43,6 +43,15 @@ a:hover {
 .favSeries {
 	width: 425px;height: 239px;
 }
+.moreVids {
+	display: flex;
+	justify-content: space-around;
+}
+.underArt {
+	display: flex;
+	justify-content: space-between;
+}
+/*Applies to Art*/
 .logo {
 	width: 122px;height: 150px;
 }
@@ -51,4 +60,20 @@ a:hover {
 }
 .logo1 {
 	width: 155px;height: 141px;
+}
+.comic {
+	width: 144px;height: 150px;
+}
+/*Applies to Game Page*/
+.games {
+	display: flex;
+	justify-content: space-around;
+}
+.minecraft, .mec, .holmes, .spore, .aCity, .dS {
+	width: 250px;height: 352px;
+	transition: width 1s, height 1s;
+	transition-delay: .2s;
+}
+.minecraft:hover, .mec:hover, .holmes:hover, .spore:hover, .aCity:hover, .dS:hover {
+	width: 300px;height: 422px;
 }
