@@ -29,16 +29,10 @@ a:hover {
 }
 .row2{
 	display: flex;
+	justify-content: space-between;
 }
 .sun {
 	width: 50px;height: 50px;
-	margin-left: 800px;
-	justify-content: flex-end;
-}
-.YouTube {
-	width: 50px; height: 35px;
-	justify-content: flex-start;
-	margin-left: -850px;
 }
 .favSeries {
 	width: 425px;height: 239px;
@@ -72,11 +66,11 @@ a:hover {
 	display: flex;
 	justify-content: space-around;
 }
-.minecraft, .mec, .holmes, .spore, .aCity, .dS, .rl, .civ, .gm {
+.minecraft, .mec, .holmes, .spore, .aCity, .dS, .rl, .civ, .gm, .p2, .sky, .ss, .sp, .limbo, .abzu {
 	width: 250px;height: 352px;
 	transition: width 1s, height 1s;
 	transition-delay: .2s;
 }
-.minecraft:hover, .mec:hover, .holmes:hover, .spore:hover, .aCity:hover, .dS:hover, .rl:hover, .civ:hover, .gm:hover{
+.minecraft:hover, .mec:hover, .holmes:hover, .spore:hover, .aCity:hover, .dS:hover, .rl:hover, .civ:hover, .gm:hover, .p2:hover, .sky:hover, .ss:hover, .sp:hover, .limbo:hover, .abzu:hover{
 	width: 300px;height: 422px;
 }
