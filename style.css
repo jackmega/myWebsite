@@ -5,18 +5,6 @@ html {
 	font-family: helvetica, arial, serif;
 	text-align: center;
 }
-@media screen and (min-width: 751px) {
-	html {
-		background-color: white;
-		background-image: url('images/background.jpg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-attachment: fixed;
-		color: black;
-		font-family: helvetica, arial, serif;
-		text-align: center;
-	}
-}
 p{
 	font-size: 1.5em;
 }
@@ -79,4 +67,20 @@ a:hover {
 }
 .minecraft:hover, .mec:hover, .holmes:hover, .spore:hover, .aCity:hover, .dS:hover, .rl:hover, .civ:hover, .gm:hover, .p2:hover, .sky:hover, .ss:hover, .sp:hover, .limbo:hover, .abzu:hover{
 	width: 300px;height: 422px;
+}
+/*Mobile Media Query*/
+@media screen and (min-width: 751px) {
+	html {
+		background-color: white;
+		background-image: url('images/background.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		color: black;
+		font-family: helvetica, arial, serif;
+		text-align: center;
+	}
+	.container {
+		width: 750px;
+	}
 }
