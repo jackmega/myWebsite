@@ -1,12 +1,21 @@
 html {
 	background-color: black;
-	background-image: url('images/backgroundDark.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
+	background-image: none;
 	color: white;
 	font-family: helvetica, arial, serif;
 	text-align: center;
+}
+@media screen and (min-width: 751px) {
+	html {
+		background-color: black;
+		background-image: url('images/background.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		color: white;
+		font-family: helvetica, arial, serif;
+		text-align: center;
+	}
 }
 p{
 	font-size: 1.5em;
