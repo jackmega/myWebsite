@@ -5,7 +5,7 @@ html {
 	font-family: helvetica, arial, serif;
 	text-align: center;
 }
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 751px) {
 	html {
 		background-color: white;
 		background-image: url('images/background.jpg');
