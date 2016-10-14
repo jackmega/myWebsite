@@ -1,75 +1,74 @@
-html {
-	background-color: black;
-	background-image: none;
-	color: white;
-	font-family: helvetica, arial, serif;
-	text-align: center;
-}
-p{
-	font-size: 1.5em;
-}
-table {
-	text-align: left;
-}
-a {
-	color: #aaaaaa;
-	text-decoration: none;
-	transition: color .5s;
-}
-a:hover {
-	color: #333333;
-	text-decoration: underline;
-}
-.container {
-	width: 750px;
-	margin: auto;
-}
-.row2{
-	display: flex;
-	justify-content: space-between;
-}
-.sun {
-	width: 50px;height: 50px;
-}
-.favSeries {
-	width: 425px;height: 239px;
-}
-.moreVids {
-	display: flex;
-	justify-content: space-around;
-}
-.underArt {
-	display: flex;
-	justify-content: space-between;
-}
-/*Applies to Art*/
-.logo {
-	width: 122px;height: 150px;
-}
-.logo2 {
-	width: 103px;height: 150px;
-}
-.logo1 {
-	width: 155px;height: 141px;
-}
-.fez {
-	width: 92px;height: 150px;
-}
-.comic {
-	width: 144px;height: 150px;
-}
-/*Applies to Game Page*/
-.games {
-	display: flex;
-	justify-content: space-around;
-}
-.minecraft, .mec, .holmes, .spore, .aCity, .dS, .rl, .civ, .gm, .p2, .sky, .ss, .sp, .limbo, .abzu {
-	width: 250px;height: 352px;
-	transition: width 1s, height 1s;
-	transition-delay: .2s;
-}
-.minecraft:hover, .mec:hover, .holmes:hover, .spore:hover, .aCity:hover, .dS:hover, .rl:hover, .civ:hover, .gm:hover, .p2:hover, .sky:hover, .ss:hover, .sp:hover, .limbo:hover, .abzu:hover{
-	width: 300px;height: 422px;
+@media screen and (max-width: 752px) {
+	html {
+		background-color: black;
+		background-image: none;
+		color: white;
+		font-family: helvetica, arial, serif;
+		text-align: center;
+	}
+	p{
+		font-size: 1.5em;
+	}
+	table {
+		text-align: left;
+	}
+	a {
+		color: #aaaaaa;
+		text-decoration: underline;
+	}
+	.container {
+		width: 740px;
+		margin: auto;
+	}
+	.headImage {
+		width: 740px;
+	}
+	.row2{
+		display: flex;
+		justify-content: space-between;
+	}
+	.sun {
+		width: 50px;height: 50px;
+	}
+	.favSeries {
+		width: 425px;height: 239px;
+	}
+	.moreVids {
+		display: flex;
+		justify-content: space-around;
+	}
+	.underArt {
+		display: flex;
+		justify-content: space-between;
+	}
+	.whyExp {
+		font-size: 1em;
+		text-align: left;
+	}
+	/*Applies to Art*/
+	.logo {
+		width: 122px;height: 150px;
+	}
+	.logo2 {
+		width: 103px;height: 150px;
+	}
+	.logo1 {
+		width: 155px;height: 141px;
+	}
+	.fez {
+		width: 92px;height: 150px;
+	}
+	.comic {
+		width: 144px;height: 150px;
+	}
+	/*Applies to Game Page*/
+	.games {
+		display: flex;
+		justify-content: space-around;
+	}
+	.minecraft, .mec, .holmes, .spore, .aCity, .dS, .rl, .civ, .gm, .p2, .sky, .ss, .sp, .limbo, .abzu {
+		width: 250px;height: 352px;
+	}
 }
 /*Desktop Media Query*/
 @media screen and (min-width: 751px) {
@@ -93,12 +92,12 @@ a:hover {
 		text-align: left;
 	}
 	a {
-		color: #333333;
+		color: #aaaaaa;
 		text-decoration: none;
 		transition: color .5s;
 	}
 	a:hover {
-		color: #aaaaaa;
+		color: #555555;
 		text-decoration: underline;
 	}
 	.container {
@@ -109,7 +108,7 @@ a:hover {
 		display: flex;
 		justify-content: space-between;
 	}
-	.moon {
+	.sun {
 		width: 50px;height: 50px;
 	}
 	.favSeries {
@@ -122,6 +121,10 @@ a:hover {
 	.underArt {
 		display: flex;
 		justify-content: space-between;
+	}
+	.whyExp {
+		font-size: 1em;
+		text-align: left;
 	}
 	/*Applies to Art*/
 	.logo {

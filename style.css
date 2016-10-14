@@ -14,16 +14,14 @@
 	}
 	a {
 		color: #333333;
-		text-decoration: none;
-		transition: color .5s;
-	}
-	a:hover {
-		color: #aaaaaa;
 		text-decoration: underline;
 	}
 	.container {
-		width: 850px;
+		width: 740px;
 		margin: auto;
+	}
+	.headImage {
+		width: 740px;
 	}
 	.row2{
 		display: flex;
@@ -42,6 +40,10 @@
 	.underArt {
 		display: flex;
 		justify-content: space-between;
+	}
+	.whyExp {
+		font-size: 1em;
+		text-align: left;
 	}
 	/*Applies to Art*/
 	.logo {
@@ -63,11 +65,6 @@
 	}
 	.minecraft, .mec, .holmes, .spore, .aCity, .dS, .rl, .civ, .gm, .p2, .sky, .ss, .sp, .limbo, .abzu {
 		width: 250px;height: 352px;
-		transition: width 1s, height 1s;
-		transition-delay: .2s;
-	}
-	.minecraft:hover, .mec:hover, .holmes:hover, .spore:hover, .aCity:hover, .dS:hover, .rl:hover, .civ:hover, .gm:hover, .p2:hover, .sky:hover, .ss:hover, .sp:hover, .limbo:hover, .abzu:hover{
-		width: 300px;height: 422px;
 	}
 	/*Applies to Videos Page*/
 	.layer1 {
@@ -126,6 +123,14 @@
 	.underArt {
 		display: flex;
 		justify-content: space-between;
+	}
+	.whyExp {
+		font-size: 1.25em;
+		text-align: left;
+	}
+	.footLinks {
+		display: flex;
+		justify-content: space-around;
 	}
 	/*Applies to Art*/
 	.logo {
